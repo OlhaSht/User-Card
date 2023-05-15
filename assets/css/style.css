@@ -1,0 +1,23 @@
+*{
+  box-sizing: border-box;
+}
+
+.card-wrapper{ 
+  --img-size: 150px;
+  min-width: calc(var(--img-size)*2);
+  width: 100%;
+  max-width: calc(var(--img-size)*4);
+  border: 1px solid darkblue;
+  text-align: center;
+}
+
+
+.photo-profile{
+ width: var(--img-size);
+ height: var(--img-size);
+ padding: 5px;
+ border: 1px solid #cccccc;
+ border-radius: 70px;
+ object-fit: cover;
+ object-position: top center; 
+}
