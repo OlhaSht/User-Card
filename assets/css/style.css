@@ -1,5 +1,6 @@
 *{
   box-sizing: border-box;
+  font-family: ;
 }
 .cards-container{
   text-align: center;
@@ -8,7 +9,7 @@
 
 .card-wrapper{ 
   --img-size: 150px;
-  --main-bg-color: rgb(137, 137, 240);
+  --main-bg-color: rgb(44, 179, 184);
   display: inline-block;
   min-width: calc(var(--img-size)*2);
   width: 100%;
@@ -44,6 +45,19 @@
 
 }
 
+.icone-map{
+  width: calc(var(--img-size)*0.15);
+  height: calc(var(--img-size)*0.15);
+}
+.full-name-profille{
+  margin: 20px 10px 10px 10px;
+}
+.capitalize{
+  
+}
+.address-profile{
+  margin: 0px 20px 20px 20px;
+}
 .btn {
   cursor: pointer;
   border:none;
