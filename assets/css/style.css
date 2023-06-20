@@ -1,6 +1,5 @@
 *{
   box-sizing: border-box;
-  font-family: ;
 }
 .cards-container{
   text-align: center;
@@ -42,7 +41,7 @@
   border-top: 1px solid#cccccc;
   border-bottom: 1px solid#cccccc;
   padding: 15px 0;
-
+  height: 60px; 
 }
 
 .icone-map{
@@ -67,6 +66,9 @@
   background-color: rgb(122, 192, 122);
 }
 
+description-profile{
+  
+}
 .card-footer{
   /* height: 50px; */
   background-color:var(--main-bg-color);
@@ -80,13 +82,19 @@
 }
 .card-item-social{
   display: inline-block;
+  height: 30px;
+  width: 60px;
 }
+
 .icon-fb{
   background-image: url(./../icons/facebook-logo.png);
+  background-size: contain;
 }
 .icon-google{
   background-image: url(./../icons/google.png);
+  background-size: contain;
 }
 .icon-twitter{
   background-image: url(./../icons/twitter.png);
+  background-size: contain;
 }
