@@ -58,12 +58,16 @@
   margin: 0px 20px 20px 20px;
 }
 .btn {
+  height: 30px;
   cursor: pointer;
   border:none;
+  border-radius: 3px;
   background-color: var(--main-bg-color);
+  color:aliceblue;
 }
 .follow{
   background-color: rgb(122, 192, 122);
+  color: aliceblue;
 }
 
 .description-profile{
