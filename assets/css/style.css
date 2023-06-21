@@ -66,8 +66,9 @@
   background-color: rgb(122, 192, 122);
 }
 
-description-profile{
-  
+.description-profile{
+  margin: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .card-footer{
   /* height: 50px; */
